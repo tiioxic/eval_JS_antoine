@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -25,9 +25,9 @@
         </div>
         <nav id="navItems" class="dispNone">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <div id="burgerMenu">
@@ -39,9 +39,12 @@
             <div id="contentProfile" class="card ">
                 <img id="imgProfile" class="imgCorner" src="" alt="">
                 <h1>Hello, je suis <span id="firstName2">[prénom]</span></h1>
-                <p>Je suis <span id="job">[job]</span>, je suis <span id="base">[basé / basée]</span> à <span id="ville">[ville]</span>, <span id="pays">[pays]</span> et j'ai <span id="age">[age]</span> ans.
+                <p>Je suis <span id="job">[job]</span>, je suis <span id="base">[basé / basée]</span> à <span
+                        id="ville">[ville]</span>, <span id="pays">[pays]</span> et j'ai <span id="age">[age]</span>
+                    ans.
                     <p>
-                        Je suis <span id="job2">[job]</span> BackEnd freelance avec une spécialisation dans les API REST.
+                        Je suis <span id="job2">[job]</span> BackEnd freelance avec une spécialisation dans les API
+                        REST.
                     </p>
 
                     <p>
@@ -133,25 +136,25 @@
 
                 <h2>Avis clients :</h2>
                 <div>
-                    <div class="flex">
+                    <div class="iconStar">
                         <img src="./images/Star1Solid.svg" alt="">
                         <p>5</p>
                     </div>
-                    <p>Bonne qualité</p>
+                    <p id="comment">Bonne qualité</p>
                 </div>
                 <div>
-                    <div class="flex">
+                    <div class="iconStar">
                         <img src="./images/Star1Solid.svg" alt="">
                         <p>5</p>
                     </div>
-                    <p>Bonne qualité</p>
+                    <p id="comment2">Bonne qualité</p>
                 </div>
                 <div>
-                    <div class="flex">
+                    <div class="iconStar">
                         <img src="./images/Star1Solid.svg" alt="">
                         <p>5</p>
                     </div>
-                    <p>Bonne qualité</p>
+                    <p id="comment3">Bonne qualité</p>
                 </div>
             </div>
         </section>
@@ -160,14 +163,15 @@
 
     </main>
     <footer>
-<nav>
+        <nav>
             <div>
-            <p>Contact : <span id="email" class="dispNone">email</span>☎ <span id="tel">tel</span></p>
-        </div>
-        <div id="reset">
-            <img src="./images/Refresh.svg" alt="">
-        </div>
-</nav>
+                <p>Contact : <span id="email" class="dispNone">email</span></p>
+                <p>☎ <span id="tel">tel</span></p>
+            </div>
+            <div id="reset">
+                <img src="./images/Refresh.svg" alt="">
+            </div>
+        </nav>
     </footer>
     <script src="./js/app.js"></script>
 </body>
